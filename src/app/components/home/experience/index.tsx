@@ -36,12 +36,12 @@ const Experience = () => {
                                     <div
                                         key={index}
                                         className="flex flex-col gap-5 border-dashed border-b border-primary/10 last:border-b-0 pt-8 sm:pt-10 pb-8 sm:pb-10 first:pt-0 last:pb-0">
-                                        <Image src={value?.icon} alt="icon" width={32} height={19} />
+                                        {/* <Image src={value?.icon} alt="icon" width={32} height={19} /> */}
                                         <div className="flex flex-wrap gap-5 items-center justify-between">
                                             <h5>{value?.role}</h5>
                                             <div className="flex items-center gap-2.5 border border-primary/10 rounded-lg py-1.5 px-3">
                                                 <div className={`w-4 h-2 rounded-sm ${value?.endYear == "Present" ? 'bg-primary' : 'bg-primary/10'} `} />
-                                                <p className="text-sm xs:text-base text-primary">{value?.startYear} – {value?.endYear} · {value?.location}</p>
+                                                <p className="text-sm xs:text-base text-primary">{value?.startYear} – {value?.endYear}  {value?.location}</p>
                                             </div>
                                         </div>
                                         <ul>

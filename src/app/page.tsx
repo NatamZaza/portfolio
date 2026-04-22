@@ -13,13 +13,13 @@ const page = () => {
       <Divider/>
       <AboutMe/>
       <Divider/>
-      <FeaturedWork/>
-      <Divider/>
+      {/* <FeaturedWork/>
+      <Divider/> */}
       <Experience/>
       <Divider/>
       <Education/>
-      <Divider/>
-      <ProjectOverview/>
+      {/* <Divider/>
+      <ProjectOverview/> */}
       <Divider/>
     </main>
   )
